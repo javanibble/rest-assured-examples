@@ -9,12 +9,6 @@ This module covers getting data out of a response, as single values or as Java o
   - [Guides](#guides)
   - [The Domain: Customers and Consents](#the-domain-customers-and-consents)
   - [Running the Module](#running-the-module)
-  - [Sections](#sections)
-    - [Section 1: Extracting Values](#section-1-extracting-values)
-    - [Section 2: JsonPath and XmlPath](#section-2-jsonpath-and-xmlpath)
-    - [Section 3: Mapping to Java Records](#section-3-mapping-to-java-records)
-    - [Section 4: Configuring the Object Mapper](#section-4-configuring-the-object-mapper)
-    - [Section 5: Chaining Requests](#section-5-chaining-requests)
 
 ## Guides
 
@@ -50,45 +44,3 @@ Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](ht
 | Goal | Command | Result |
 | --- | --- | --- |
 | Run the module | `mvn test -pl module-04` | 21 tests pass |
-
-## Sections
-
-### Section 1: Extracting Values
-
-**Guide:** [Extracting Values in REST Assured](https://www.javanibble.com/rest-assured-guide/module-04/section-01.html)
-
-| Class | What it tests |
-| --- | --- |
-| [`ExtractingValuesTest`](src/test/java/com/javanibble/module_04/section_01/ExtractingValuesTest.java) | `extract().path(..)` for a value and a list, headers and the status code of an extracted response, `extract().response()`, and a value from one response used in the next request |
-
-### Section 2: JsonPath and XmlPath
-
-**Guide:** [JsonPath and XmlPath in REST Assured](https://www.javanibble.com/rest-assured-guide/module-04/section-02.html)
-
-| Class | What it tests |
-| --- | --- |
-| [`JsonPathAndXmlPathTest`](src/test/java/com/javanibble/module_04/section_02/JsonPathAndXmlPathTest.java) | Typed getters, `getMap` and `getObject`, `JsonPath` on JSON that didn't come from HTTP, and `XmlPath`, which works the same way |
-
-### Section 3: Mapping to Java Records
-
-**Guide:** [Mapping Responses to Java Records in REST Assured](https://www.javanibble.com/rest-assured-guide/module-04/section-03.html)
-
-| Class | What it tests |
-| --- | --- |
-| [`ObjectMappingTest`](src/test/java/com/javanibble/module_04/section_03/ObjectMappingTest.java) | A record out, a record in and a record out, a generic page with `TypeRef`, a JSON array as a `List`, and unknown fields ignored by default |
-
-### Section 4: Configuring the Object Mapper
-
-**Guide:** [Configuring the Object Mapper in REST Assured](https://www.javanibble.com/rest-assured-guide/module-04/section-04.html)
-
-| Class | What it tests |
-| --- | --- |
-| [`ObjectMapperConfigurationTest`](src/test/java/com/javanibble/module_04/section_04/ObjectMapperConfigurationTest.java) | Choosing Jackson 3 explicitly with `ObjectMapperType.JACKSON_3`, and a lenient and a strict `JsonMapper` through `ObjectMapperConfig` |
-
-### Section 5: Chaining Requests
-
-**Guide:** [Chaining Requests in REST Assured](https://www.javanibble.com/rest-assured-guide/module-04/section-05.html)
-
-| Class | What it tests |
-| --- | --- |
-| [`ChainingRequestsTest`](src/test/java/com/javanibble/module_04/section_05/ChainingRequestsTest.java) | Create, then follow the `Location` header; the full consent flow; a consent that isn't authorised; and a consent that grants only its own permissions |

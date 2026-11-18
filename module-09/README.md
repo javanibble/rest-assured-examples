@@ -9,12 +9,6 @@ This module covers testing many inputs without copying tests, and testing flows 
   - [Guides](#guides)
   - [The Domain: The Payment Lifecycle](#the-domain-the-payment-lifecycle)
   - [Running the Module](#running-the-module)
-  - [Sections](#sections)
-    - [Section 1: Parameterized API Tests](#section-1-parameterized-api-tests)
-    - [Section 2: Dynamic API Tests](#section-2-dynamic-api-tests)
-    - [Section 3: API Workflows](#section-3-api-workflows)
-    - [Section 4: HTTP Semantics](#section-4-http-semantics)
-    - [Section 5: Asynchronous APIs](#section-5-asynchronous-apis)
 
 ## Guides
 
@@ -48,46 +42,3 @@ Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](ht
 | Goal | Command | Result |
 | --- | --- | --- |
 | Run the module | `mvn test -pl module-09` | 67 tests pass |
-
-## Sections
-
-### Section 1: Parameterized API Tests
-
-**Guide:** [Parameterized API Tests With REST Assured](https://www.javanibble.com/rest-assured-guide/module-09/section-01.html)
-
-| Class | What it tests |
-| --- | --- |
-| [`ValidationMatrixTest`](src/test/java/com/javanibble/module_09/section_01/ValidationMatrixTest.java) | Invalid fields with `@CsvSource`, boundary amounts with `@ValueSource`, IBANs from several countries with `@FieldSource`, and several problems at once with `@MethodSource` |
-| [`PerCurrencyTest`](src/test/java/com/javanibble/module_09/section_01/PerCurrencyTest.java) | A whole class repeated per currency with `@ParameterizedClass` |
-
-### Section 2: Dynamic API Tests
-
-**Guide:** [Dynamic API Tests With REST Assured](https://www.javanibble.com/rest-assured-guide/module-09/section-02.html)
-
-| Class | What it tests |
-| --- | --- |
-| [`DynamicTestsTest`](src/test/java/com/javanibble/module_09/section_02/DynamicTestsTest.java) | A `@TestFactory` that checks every endpoint rejects a missing or wrong token, grouped per endpoint with `dynamicContainer` |
-
-### Section 3: API Workflows
-
-**Guide:** [API Workflows With REST Assured](https://www.javanibble.com/rest-assured-guide/module-09/section-03.html)
-
-| Class | What it tests |
-| --- | --- |
-| [`PaymentWorkflowTest`](src/test/java/com/javanibble/module_09/section_03/PaymentWorkflowTest.java) | Initiate, authorise, execute and settle a payment in order with `@Nested` and `@Order`; insufficient funds; authorising only once; and authorising before execution |
-
-### Section 4: HTTP Semantics
-
-**Guide:** [HTTP Semantics in REST Assured](https://www.javanibble.com/rest-assured-guide/module-09/section-04.html)
-
-| Class | What it tests |
-| --- | --- |
-| [`HttpSemanticsTest`](src/test/java/com/javanibble/module_09/section_04/HttpSemanticsTest.java) | Idempotency keys (the same request twice, a reused key, a missing key), ETags with `If-None-Match` and `If-Match` and a stale ETag, and cursor pagination with `Link` headers |
-
-### Section 5: Asynchronous APIs
-
-**Guide:** [Testing Asynchronous APIs With REST Assured](https://www.javanibble.com/rest-assured-guide/module-09/section-05.html)
-
-| Class | What it tests |
-| --- | --- |
-| [`AsyncPollingTest`](src/test/java/com/javanibble/module_09/section_05/AsyncPollingTest.java) | Polling the `Location` with Awaitility until the work is done, respecting `Retry-After`, and waiting for a final state before checking which one |

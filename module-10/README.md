@@ -9,11 +9,6 @@ This module covers testing an API whose own dependency you don't control, by rep
   - [Guides](#guides)
   - [The Domain: A Quote Service and an FX Provider](#the-domain-a-quote-service-and-an-fx-provider)
   - [Running the Module](#running-the-module)
-  - [Sections](#sections)
-    - [Section 1: Stubbing a Dependency](#section-1-stubbing-a-dependency)
-    - [Section 2: Provider Faults](#section-2-provider-faults)
-    - [Section 3: Verifying Outgoing Calls](#section-3-verifying-outgoing-calls)
-    - [Section 4: Response Templates and Scenarios](#section-4-response-templates-and-scenarios)
 
 ## Guides
 
@@ -49,37 +44,3 @@ Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](ht
 | Goal | Command | Result |
 | --- | --- | --- |
 | Run the module | `mvn test -pl module-10` | 19 tests pass |
-
-## Sections
-
-### Section 1: Stubbing a Dependency
-
-**Guide:** [Stubbing a Dependency With WireMock](https://www.javanibble.com/rest-assured-guide/module-10/section-01.html)
-
-| Class | What it tests |
-| --- | --- |
-| [`StubbingBasicsTest`](src/test/java/com/javanibble/module_10/section_01/StubbingBasicsTest.java) | A quote with the provider's rate through `WireMockExtension`, half-even rounding, a request without the right headers matching no stub, calling the stub directly, and invalid input that never reaches the provider |
-
-### Section 2: Provider Faults
-
-**Guide:** [Simulating Provider Faults With WireMock](https://www.javanibble.com/rest-assured-guide/module-10/section-02.html)
-
-| Class | What it tests |
-| --- | --- |
-| [`ProviderFaultsTest`](src/test/java/com/javanibble/module_10/section_02/ProviderFaultsTest.java) | A server error, a slow provider, a reset connection, broken JSON and a missing rate, rate limiting passed on with `Retry-After`, and an unknown currency |
-
-### Section 3: Verifying Outgoing Calls
-
-**Guide:** [Verifying Outgoing Calls With WireMock](https://www.javanibble.com/rest-assured-guide/module-10/section-03.html)
-
-| Class | What it tests |
-| --- | --- |
-| [`VerifyingCallsTest`](src/test/java/com/javanibble/module_10/section_03/VerifyingCallsTest.java) | Exactly one call with the right headers per quote, a temporary outage retried once, other errors not retried, and reading the recorded requests yourself |
-
-### Section 4: Response Templates and Scenarios
-
-**Guide:** [WireMock Response Templates and Scenarios](https://www.javanibble.com/rest-assured-guide/module-10/section-04.html)
-
-| Class | What it tests |
-| --- | --- |
-| [`TemplatingAndScenariosTest`](src/test/java/com/javanibble/module_10/section_04/TemplatingAndScenariosTest.java) | One templated stub for every currency, a provider that fails twice and then recovers, and one failure hidden by the retry |

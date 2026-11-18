@@ -27,7 +27,7 @@ Inside, you'll find working implementations covering JSON serialisation, reusabl
 
 ## Guide
 
-The [REST Assured Guide](https://www.javanibble.com/rest-assured-guide/) on Java Nibble is the documentation for this repository. It has a page for every module and a step-by-step guide for every section, which explains the concepts behind the tests, walks through the code and points out common mistakes. Each module's README lists its sections, with a link to each guide and to the test classes. 
+The [REST Assured Guide](https://www.javanibble.com/rest-assured-guide/) on Java Nibble is the documentation for this repository. It has a page for every module and a step-by-step guide for every section, which explains the concepts behind the tests, walks through the code and points out common mistakes. Each module's README links to the guide for each of its sections.
 
 | Module | Level | What you will learn | Documentation |
 | --- | --- | --- | --- |

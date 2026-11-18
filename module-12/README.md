@@ -9,10 +9,6 @@ This module covers running REST Assured against real infrastructure in Docker, a
   - [Guides](#guides)
   - [The Domain: Protected Accounts and Reference Data](#the-domain-protected-accounts-and-reference-data)
   - [Running the Module](#running-the-module)
-  - [Sections](#sections)
-    - [Section 1: Real Tokens from Keycloak](#section-1-real-tokens-from-keycloak)
-    - [Section 2: Running in Parallel](#section-2-running-in-parallel)
-    - [Section 3: Tags and Profiles](#section-3-tags-and-profiles)
 
 ## Guides
 
@@ -41,30 +37,3 @@ Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](ht
 | Security tests only | `mvn test -pl module-12 -Psecurity` | the 5 Keycloak tests |
 
 The first run downloads the Keycloak image, which takes a while.
-
-## Sections
-
-### Section 1: Real Tokens from Keycloak
-
-**Guide:** [Real OAuth 2.0 Tokens From Keycloak](https://www.javanibble.com/rest-assured-guide/module-12/section-01.html)
-
-| Class | What it tests |
-| --- | --- |
-| [`KeycloakTokensTest`](src/test/java/com/javanibble/module_12/section_01/KeycloakTokensTest.java) | OpenID Connect discovery; an accounts token reading accounts; a payments token initiating payments; an accounts token refused for payments; a wrong client secret; the claims Keycloak puts in a token |
-
-### Section 2: Running in Parallel
-
-**Guide:** [Running REST Assured Tests in Parallel](https://www.javanibble.com/rest-assured-guide/module-12/section-02.html)
-
-| Class | What it tests |
-| --- | --- |
-| [`ParallelExecutionTest`](src/test/java/com/javanibble/module_12/section_02/ParallelExecutionTest.java) | Eight requests that run concurrently with `@Execution(CONCURRENT)`; the threads used are printed at the end |
-
-### Section 3: Tags and Profiles
-
-**Guide:** [Tags and Maven Profiles for REST Assured Suites](https://www.javanibble.com/rest-assured-guide/module-12/section-03.html)
-
-| Class | What it tests |
-| --- | --- |
-| [`TaggedSuiteTest`](src/test/java/com/javanibble/module_12/section_03/TaggedSuiteTest.java) | Two `@SmokeTest`s and a regression test |
-| [`SmokeTest`](src/test/java/com/javanibble/module_12/support/SmokeTest.java) | A composed annotation: `@Test` plus `@Tag("smoke")` |
