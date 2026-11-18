@@ -6,14 +6,25 @@ This module covers checking the shape of a response instead of only its values: 
 
 - [Module 6: Schema and Contract Validation](#module-6-schema-and-contract-validation)
   - [Table of Contents](#table-of-contents)
+  - [Guides](#guides)
   - [The Domain: Payment Initiation](#the-domain-payment-initiation)
   - [Running the Module](#running-the-module)
-  - [Guides](#guides)
   - [Sections](#sections)
     - [Section 1: JSON Schema](#section-1-json-schema)
     - [Section 2: An Error Contract](#section-2-an-error-contract)
     - [Section 3: XML Schema](#section-3-xml-schema)
     - [Section 4: An OpenAPI Contract Filter](#section-4-an-openapi-contract-filter)
+
+## Guides
+
+Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-06/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
+
+| Section | Guide |
+| --- | --- |
+| 1. JSON Schema | [JSON Schema Validation in REST Assured](https://www.javanibble.com/rest-assured-guide/module-06/section-01.html) |
+| 2. An Error Contract | [An Error Contract in REST Assured](https://www.javanibble.com/rest-assured-guide/module-06/section-02.html) |
+| 3. XML Schema | [XML Schema Validation in REST Assured](https://www.javanibble.com/rest-assured-guide/module-06/section-03.html) |
+| 4. An OpenAPI Contract Filter | [An OpenAPI Contract Filter for REST Assured](https://www.javanibble.com/rest-assured-guide/module-06/section-04.html) |
 
 ## The Domain: Payment Initiation
 
@@ -40,17 +51,6 @@ The contract is in [`src/test/resources`](src/test/resources):
 | Goal | Command | Result |
 | --- | --- | --- |
 | Run the module | `mvn test -pl module-06` | 18 tests pass |
-
-## Guides
-
-Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-06/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
-
-| Section | Guide |
-| --- | --- |
-| 1. JSON Schema | [JSON Schema Validation in REST Assured](https://www.javanibble.com/rest-assured-guide/module-06/section-01.html) |
-| 2. An Error Contract | [An Error Contract in REST Assured](https://www.javanibble.com/rest-assured-guide/module-06/section-02.html) |
-| 3. XML Schema | [XML Schema Validation in REST Assured](https://www.javanibble.com/rest-assured-guide/module-06/section-03.html) |
-| 4. An OpenAPI Contract Filter | [An OpenAPI Contract Filter for REST Assured](https://www.javanibble.com/rest-assured-guide/module-06/section-04.html) |
 
 ## Sections
 

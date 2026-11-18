@@ -6,9 +6,9 @@ This module covers every way to put data into a request: path, query and form pa
 
 - [Module 2: Building Requests](#module-2-building-requests)
   - [Table of Contents](#table-of-contents)
+  - [Guides](#guides)
   - [The Domain: Payments](#the-domain-payments)
   - [Running the Module](#running-the-module)
-  - [Guides](#guides)
   - [Sections](#sections)
     - [Section 1: Path Parameters](#section-1-path-parameters)
     - [Section 2: Query, Form and Plain Parameters](#section-2-query-form-and-plain-parameters)
@@ -16,6 +16,19 @@ This module covers every way to put data into a request: path, query and form pa
     - [Section 4: Request Bodies](#section-4-request-bodies)
     - [Section 5: Every HTTP Method](#section-5-every-http-method)
     - [Section 6: Multipart Uploads](#section-6-multipart-uploads)
+
+## Guides
+
+Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-02/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
+
+| Section | Guide |
+| --- | --- |
+| 1. Path Parameters | [Path Parameters in REST Assured](https://www.javanibble.com/rest-assured-guide/module-02/section-01.html) |
+| 2. Query, Form and Plain Parameters | [Query, Form and Plain Parameters in REST Assured](https://www.javanibble.com/rest-assured-guide/module-02/section-02.html) |
+| 3. Headers and Cookies | [Headers, Cookies and Content Types in REST Assured](https://www.javanibble.com/rest-assured-guide/module-02/section-03.html) |
+| 4. Request Bodies | [Request Bodies in REST Assured](https://www.javanibble.com/rest-assured-guide/module-02/section-04.html) |
+| 5. Every HTTP Method | [Every HTTP Method in REST Assured](https://www.javanibble.com/rest-assured-guide/module-02/section-05.html) |
+| 6. Multipart Uploads | [Multipart Uploads in REST Assured](https://www.javanibble.com/rest-assured-guide/module-02/section-06.html) |
 
 ## The Domain: Payments
 
@@ -41,19 +54,6 @@ This module covers every way to put data into a request: path, query and form pa
 | Goal | Command | Result |
 | --- | --- | --- |
 | Run the module | `mvn test -pl module-02` | 54 tests pass |
-
-## Guides
-
-Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-02/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
-
-| Section | Guide |
-| --- | --- |
-| 1. Path Parameters | [Path Parameters in REST Assured](https://www.javanibble.com/rest-assured-guide/module-02/section-01.html) |
-| 2. Query, Form and Plain Parameters | [Query, Form and Plain Parameters in REST Assured](https://www.javanibble.com/rest-assured-guide/module-02/section-02.html) |
-| 3. Headers and Cookies | [Headers, Cookies and Content Types in REST Assured](https://www.javanibble.com/rest-assured-guide/module-02/section-03.html) |
-| 4. Request Bodies | [Request Bodies in REST Assured](https://www.javanibble.com/rest-assured-guide/module-02/section-04.html) |
-| 5. Every HTTP Method | [Every HTTP Method in REST Assured](https://www.javanibble.com/rest-assured-guide/module-02/section-05.html) |
-| 6. Multipart Uploads | [Multipart Uploads in REST Assured](https://www.javanibble.com/rest-assured-guide/module-02/section-06.html) |
 
 ## Sections
 

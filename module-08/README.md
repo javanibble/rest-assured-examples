@@ -6,15 +6,27 @@ This module covers changing every request and response in one place with filters
 
 - [Module 8: Filters and Extensibility](#module-8-filters-and-extensibility)
   - [Table of Contents](#table-of-contents)
+  - [Guides](#guides)
   - [The Domain: Signed Payments](#the-domain-signed-payments)
   - [Running the Module](#running-the-module)
-  - [Guides](#guides)
   - [Sections](#sections)
     - [Section 1: Writing Filters](#section-1-writing-filters)
     - [Section 2: Useful Filters](#section-2-useful-filters)
     - [Section 3: Signing Requests](#section-3-signing-requests)
     - [Section 4: A Custom Authentication Scheme](#section-4-a-custom-authentication-scheme)
     - [Section 5: Parsers and Failure Listeners](#section-5-parsers-and-failure-listeners)
+
+## Guides
+
+Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-08/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
+
+| Section | Guide |
+| --- | --- |
+| 1. Writing Filters | [Writing Filters in REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-01.html) |
+| 2. Useful Filters | [Useful Filters for REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-02.html) |
+| 3. Signing Requests | [Signing Requests in REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-03.html) |
+| 4. A Custom Authentication Scheme | [A Custom Authentication Scheme in REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-04.html) |
+| 5. Parsers and Failure Listeners | [Parsers and Failure Listeners in REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-05.html) |
 
 ## The Domain: Signed Payments
 
@@ -32,18 +44,6 @@ This module covers changing every request and response in one place with filters
 | Goal | Command | Result |
 | --- | --- | --- |
 | Run the module | `mvn test -pl module-08` | 26 tests pass |
-
-## Guides
-
-Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-08/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
-
-| Section | Guide |
-| --- | --- |
-| 1. Writing Filters | [Writing Filters in REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-01.html) |
-| 2. Useful Filters | [Useful Filters for REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-02.html) |
-| 3. Signing Requests | [Signing Requests in REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-03.html) |
-| 4. A Custom Authentication Scheme | [A Custom Authentication Scheme in REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-04.html) |
-| 5. Parsers and Failure Listeners | [Parsers and Failure Listeners in REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-05.html) |
 
 ## Sections
 

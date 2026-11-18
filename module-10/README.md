@@ -6,14 +6,25 @@ This module covers testing an API whose own dependency you don't control, by rep
 
 - [Module 10: Stubbing Dependencies with WireMock](#module-10-stubbing-dependencies-with-wiremock)
   - [Table of Contents](#table-of-contents)
+  - [Guides](#guides)
   - [The Domain: A Quote Service and an FX Provider](#the-domain-a-quote-service-and-an-fx-provider)
   - [Running the Module](#running-the-module)
-  - [Guides](#guides)
   - [Sections](#sections)
     - [Section 1: Stubbing a Dependency](#section-1-stubbing-a-dependency)
     - [Section 2: Provider Faults](#section-2-provider-faults)
     - [Section 3: Verifying Outgoing Calls](#section-3-verifying-outgoing-calls)
     - [Section 4: Response Templates and Scenarios](#section-4-response-templates-and-scenarios)
+
+## Guides
+
+Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-10/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
+
+| Section | Guide |
+| --- | --- |
+| 1. Stubbing a Dependency | [Stubbing a Dependency With WireMock](https://www.javanibble.com/rest-assured-guide/module-10/section-01.html) |
+| 2. Provider Faults | [Simulating Provider Faults With WireMock](https://www.javanibble.com/rest-assured-guide/module-10/section-02.html) |
+| 3. Verifying Outgoing Calls | [Verifying Outgoing Calls With WireMock](https://www.javanibble.com/rest-assured-guide/module-10/section-03.html) |
+| 4. Response Templates and Scenarios | [WireMock Response Templates and Scenarios](https://www.javanibble.com/rest-assured-guide/module-10/section-04.html) |
 
 ## The Domain: A Quote Service and an FX Provider
 
@@ -38,17 +49,6 @@ This module covers testing an API whose own dependency you don't control, by rep
 | Goal | Command | Result |
 | --- | --- | --- |
 | Run the module | `mvn test -pl module-10` | 19 tests pass |
-
-## Guides
-
-Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-10/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
-
-| Section | Guide |
-| --- | --- |
-| 1. Stubbing a Dependency | [Stubbing a Dependency With WireMock](https://www.javanibble.com/rest-assured-guide/module-10/section-01.html) |
-| 2. Provider Faults | [Simulating Provider Faults With WireMock](https://www.javanibble.com/rest-assured-guide/module-10/section-02.html) |
-| 3. Verifying Outgoing Calls | [Verifying Outgoing Calls With WireMock](https://www.javanibble.com/rest-assured-guide/module-10/section-03.html) |
-| 4. Response Templates and Scenarios | [WireMock Response Templates and Scenarios](https://www.javanibble.com/rest-assured-guide/module-10/section-04.html) |
 
 ## Sections
 

@@ -6,13 +6,23 @@ This module covers running REST Assured against real infrastructure in Docker, a
 
 - [Module 12: Real Infrastructure with Testcontainers](#module-12-real-infrastructure-with-testcontainers)
   - [Table of Contents](#table-of-contents)
+  - [Guides](#guides)
   - [The Domain: Protected Accounts and Reference Data](#the-domain-protected-accounts-and-reference-data)
   - [Running the Module](#running-the-module)
-  - [Guides](#guides)
   - [Sections](#sections)
     - [Section 1: Real Tokens from Keycloak](#section-1-real-tokens-from-keycloak)
     - [Section 2: Running in Parallel](#section-2-running-in-parallel)
     - [Section 3: Tags and Profiles](#section-3-tags-and-profiles)
+
+## Guides
+
+Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-12/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
+
+| Section | Guide |
+| --- | --- |
+| 1. Real Tokens from Keycloak | [Real OAuth 2.0 Tokens From Keycloak](https://www.javanibble.com/rest-assured-guide/module-12/section-01.html) |
+| 2. Running in Parallel | [Running REST Assured Tests in Parallel](https://www.javanibble.com/rest-assured-guide/module-12/section-02.html) |
+| 3. Tags and Profiles | [Tags and Maven Profiles for REST Assured Suites](https://www.javanibble.com/rest-assured-guide/module-12/section-03.html) |
 
 ## The Domain: Protected Accounts and Reference Data
 
@@ -31,16 +41,6 @@ This module covers running REST Assured against real infrastructure in Docker, a
 | Security tests only | `mvn test -pl module-12 -Psecurity` | the 5 Keycloak tests |
 
 The first run downloads the Keycloak image, which takes a while.
-
-## Guides
-
-Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-12/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
-
-| Section | Guide |
-| --- | --- |
-| 1. Real Tokens from Keycloak | [Real OAuth 2.0 Tokens From Keycloak](https://www.javanibble.com/rest-assured-guide/module-12/section-01.html) |
-| 2. Running in Parallel | [Running REST Assured Tests in Parallel](https://www.javanibble.com/rest-assured-guide/module-12/section-02.html) |
-| 3. Tags and Profiles | [Tags and Maven Profiles for REST Assured Suites](https://www.javanibble.com/rest-assured-guide/module-12/section-03.html) |
 
 ## Sections
 

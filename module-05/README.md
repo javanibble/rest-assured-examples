@@ -6,15 +6,27 @@ This module covers removing repetition from a test suite and configuring REST As
 
 - [Module 5: Reusable Specifications and Configuration](#module-5-reusable-specifications-and-configuration)
   - [Table of Contents](#table-of-contents)
+  - [Guides](#guides)
   - [The Domain: Open Banking Accounts](#the-domain-open-banking-accounts)
   - [Running the Module](#running-the-module)
-  - [Guides](#guides)
   - [Sections](#sections)
     - [Section 1: Request Specifications](#section-1-request-specifications)
     - [Section 2: Response Specifications](#section-2-response-specifications)
     - [Section 3: Client Configuration](#section-3-client-configuration)
     - [Section 4: Keeping Secrets Out of Logs](#section-4-keeping-secrets-out-of-logs)
     - [Section 5: A JUnit Extension](#section-5-a-junit-extension)
+
+## Guides
+
+Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-05/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
+
+| Section | Guide |
+| --- | --- |
+| 1. Request Specifications | [Request Specifications in REST Assured](https://www.javanibble.com/rest-assured-guide/module-05/section-01.html) |
+| 2. Response Specifications | [Response Specifications in REST Assured](https://www.javanibble.com/rest-assured-guide/module-05/section-02.html) |
+| 3. Client Configuration | [Client Configuration in REST Assured](https://www.javanibble.com/rest-assured-guide/module-05/section-03.html) |
+| 4. Keeping Secrets Out of Logs | [Keeping Secrets Out of REST Assured Logs](https://www.javanibble.com/rest-assured-guide/module-05/section-04.html) |
+| 5. A JUnit Extension | [A JUnit Extension for REST Assured](https://www.javanibble.com/rest-assured-guide/module-05/section-05.html) |
 
 ## The Domain: Open Banking Accounts
 
@@ -33,18 +45,6 @@ Under `/test-support`, with none of these rules, are endpoints for client config
 | Goal | Command | Result |
 | --- | --- | --- |
 | Run the module | `mvn test -pl module-05` | 24 tests pass |
-
-## Guides
-
-Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-05/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
-
-| Section | Guide |
-| --- | --- |
-| 1. Request Specifications | [Request Specifications in REST Assured](https://www.javanibble.com/rest-assured-guide/module-05/section-01.html) |
-| 2. Response Specifications | [Response Specifications in REST Assured](https://www.javanibble.com/rest-assured-guide/module-05/section-02.html) |
-| 3. Client Configuration | [Client Configuration in REST Assured](https://www.javanibble.com/rest-assured-guide/module-05/section-03.html) |
-| 4. Keeping Secrets Out of Logs | [Keeping Secrets Out of REST Assured Logs](https://www.javanibble.com/rest-assured-guide/module-05/section-04.html) |
-| 5. A JUnit Extension | [A JUnit Extension for REST Assured](https://www.javanibble.com/rest-assured-guide/module-05/section-05.html) |
 
 ## Sections
 

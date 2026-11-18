@@ -6,9 +6,9 @@ This module covers checking any part of a JSON, XML or HTML response precisely: 
 
 - [Module 3: Validating Responses in Depth](#module-3-validating-responses-in-depth)
   - [Table of Contents](#table-of-contents)
+  - [Guides](#guides)
   - [The Domain: Transactions and Bank Statements](#the-domain-transactions-and-bank-statements)
   - [Running the Module](#running-the-module)
-  - [Guides](#guides)
   - [Sections](#sections)
     - [Section 1: GPath for JSON](#section-1-gpath-for-json)
     - [Section 2: Root Paths and Path Arguments](#section-2-root-paths-and-path-arguments)
@@ -17,6 +17,20 @@ This module covers checking any part of a JSON, XML or HTML response precisely: 
     - [Section 5: Response-Aware Matchers](#section-5-response-aware-matchers)
     - [Section 6: Cookies](#section-6-cookies)
     - [Section 7: XML and HTML](#section-7-xml-and-html)
+
+## Guides
+
+Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-03/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
+
+| Section | Guide |
+| --- | --- |
+| 1. GPath for JSON | [GPath for JSON in REST Assured](https://www.javanibble.com/rest-assured-guide/module-03/section-01.html) |
+| 2. Root Paths and Path Arguments | [Root Paths and Path Arguments in REST Assured](https://www.javanibble.com/rest-assured-guide/module-03/section-02.html) |
+| 3. Numbers and Money | [Numbers and Money in REST Assured](https://www.javanibble.com/rest-assured-guide/module-03/section-03.html) |
+| 4. The Hamcrest Toolbox | [The Hamcrest Toolbox for REST Assured](https://www.javanibble.com/rest-assured-guide/module-03/section-04.html) |
+| 5. Response-Aware Matchers | [Response-Aware Matchers in REST Assured](https://www.javanibble.com/rest-assured-guide/module-03/section-05.html) |
+| 6. Cookies | [Response Cookies in REST Assured](https://www.javanibble.com/rest-assured-guide/module-03/section-06.html) |
+| 7. XML and HTML | [XML and HTML in REST Assured](https://www.javanibble.com/rest-assured-guide/module-03/section-07.html) |
 
 ## The Domain: Transactions and Bank Statements
 
@@ -38,20 +52,6 @@ Amounts are JSON numbers with two decimals; debits are negative.
 | Goal | Command | Result |
 | --- | --- | --- |
 | Run the module | `mvn test -pl module-03` | 38 tests pass |
-
-## Guides
-
-Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-03/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
-
-| Section | Guide |
-| --- | --- |
-| 1. GPath for JSON | [GPath for JSON in REST Assured](https://www.javanibble.com/rest-assured-guide/module-03/section-01.html) |
-| 2. Root Paths and Path Arguments | [Root Paths and Path Arguments in REST Assured](https://www.javanibble.com/rest-assured-guide/module-03/section-02.html) |
-| 3. Numbers and Money | [Numbers and Money in REST Assured](https://www.javanibble.com/rest-assured-guide/module-03/section-03.html) |
-| 4. The Hamcrest Toolbox | [The Hamcrest Toolbox for REST Assured](https://www.javanibble.com/rest-assured-guide/module-03/section-04.html) |
-| 5. Response-Aware Matchers | [Response-Aware Matchers in REST Assured](https://www.javanibble.com/rest-assured-guide/module-03/section-05.html) |
-| 6. Cookies | [Response Cookies in REST Assured](https://www.javanibble.com/rest-assured-guide/module-03/section-06.html) |
-| 7. XML and HTML | [XML and HTML in REST Assured](https://www.javanibble.com/rest-assured-guide/module-03/section-07.html) |
 
 ## Sections
 

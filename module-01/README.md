@@ -6,9 +6,9 @@ This module covers how a REST Assured test is put together, where its requests g
 
 - [Module 1: Foundations](#module-1-foundations)
   - [Table of Contents](#table-of-contents)
+  - [Guides](#guides)
   - [The Domain: Accounts](#the-domain-accounts)
   - [Running the Module](#running-the-module)
-  - [Guides](#guides)
   - [Sections](#sections)
     - [Section 1: Your First Request](#section-1-your-first-request)
     - [Section 2: The Anatomy of a Test](#section-2-the-anatomy-of-a-test)
@@ -16,6 +16,19 @@ This module covers how a REST Assured test is put together, where its requests g
     - [Section 4: First Assertions](#section-4-first-assertions)
     - [Section 5: Logging](#section-5-logging)
     - [Section 6: Reading Failures](#section-6-reading-failures)
+
+## Guides
+
+Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-01/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
+
+| Section | Guide |
+| --- | --- |
+| 1. Your First Request | [Your First REST Assured Request](https://www.javanibble.com/rest-assured-guide/module-01/section-01.html) |
+| 2. The Anatomy of a Test | [The Anatomy of a REST Assured Test](https://www.javanibble.com/rest-assured-guide/module-01/section-02.html) |
+| 3. Where Requests Go | [Where REST Assured Requests Go](https://www.javanibble.com/rest-assured-guide/module-01/section-03.html) |
+| 4. First Assertions | [First REST Assured Assertions](https://www.javanibble.com/rest-assured-guide/module-01/section-04.html) |
+| 5. Logging | [Logging in REST Assured](https://www.javanibble.com/rest-assured-guide/module-01/section-05.html) |
+| 6. Reading Failures | [Reading REST Assured Failures](https://www.javanibble.com/rest-assured-guide/module-01/section-06.html) |
 
 ## The Domain: Accounts
 
@@ -36,19 +49,6 @@ Every response has `Cache-Control: no-store` and a fresh `X-Request-Id`, and a r
 | --- | --- | --- |
 | Run the module | `mvn test -pl module-01` | 36 tests pass |
 | Run the deliberately failing tests | `mvn test -pl module-01 -DexcludedGroups=none -Dtest=DeliberatelyFailingTest` | 5 tests fail on purpose, and Maven reports `BUILD FAILURE` |
-
-## Guides
-
-Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-01/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
-
-| Section | Guide |
-| --- | --- |
-| 1. Your First Request | [Your First REST Assured Request](https://www.javanibble.com/rest-assured-guide/module-01/section-01.html) |
-| 2. The Anatomy of a Test | [The Anatomy of a REST Assured Test](https://www.javanibble.com/rest-assured-guide/module-01/section-02.html) |
-| 3. Where Requests Go | [Where REST Assured Requests Go](https://www.javanibble.com/rest-assured-guide/module-01/section-03.html) |
-| 4. First Assertions | [First REST Assured Assertions](https://www.javanibble.com/rest-assured-guide/module-01/section-04.html) |
-| 5. Logging | [Logging in REST Assured](https://www.javanibble.com/rest-assured-guide/module-01/section-05.html) |
-| 6. Reading Failures | [Reading REST Assured Failures](https://www.javanibble.com/rest-assured-guide/module-01/section-06.html) |
 
 ## Sections
 
