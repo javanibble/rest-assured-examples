@@ -35,35 +35,30 @@ This module covers changing every request and response in one place with filters
 
 ## Guides
 
-Each section has a step-by-step guide in the [`docs`](../docs) folder at the repository root. The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
+Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-08/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
 
 | Section | Guide |
 | --- | --- |
-| 1. Writing Filters | [Writing Filters in REST Assured: Filter, FilterContext and OrderedFilter](../docs/module-08-section-01-rest-assured-writing-filters.md) |
-| 2. Useful Filters | [Useful Filters for REST Assured: Timing, Masked Logs and Repairing Responses](../docs/module-08-section-02-rest-assured-useful-filters.md) |
-| 3. Signing Requests | [Signing Requests in REST Assured: HTTP Message Signatures With an OrderedFilter](../docs/module-08-section-03-rest-assured-signing-requests.md) |
-| 4. A Custom Authentication Scheme | [A Custom Authentication Scheme in REST Assured: ContextAuthenticationScheme for an API Key](../docs/module-08-section-04-rest-assured-custom-authentication-scheme.md) |
-| 5. Parsers and Failure Listeners | [Parsers and Failure Listeners in REST Assured: Wrong Content Types and Evidence on Failure](../docs/module-08-section-05-rest-assured-parsers-and-failure-listeners.md) |
+| 1. Writing Filters | [Writing Filters in REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-01.html) |
+| 2. Useful Filters | [Useful Filters for REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-02.html) |
+| 3. Signing Requests | [Signing Requests in REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-03.html) |
+| 4. A Custom Authentication Scheme | [A Custom Authentication Scheme in REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-04.html) |
+| 5. Parsers and Failure Listeners | [Parsers and Failure Listeners in REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-05.html) |
 
 ## Sections
 
 ### Section 1: Writing Filters
 
-**Guide:** [module-08-section-01-rest-assured-writing-filters.md](../docs/module-08-section-01-rest-assured-writing-filters.md)
+**Guide:** [Writing Filters in REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-01.html)
 
 | Class | What it tests |
 | --- | --- |
 | [`WritingFiltersTest`](src/test/java/com/javanibble/module_08/section_01/WritingFiltersTest.java) | A filter that adds a header, a lambda filter, a filter that sees responses, a filter that fails a test, ordered filters, filters in a specification, and global filters |
 | [`CorrelationIdFilter`](src/test/java/com/javanibble/module_08/support/CorrelationIdFilter.java) | Adds `X-Correlation-Id` and checks that the response echoes it |
 
-**REST Assured concepts**
-
-- Code before `context.next(request, responseSpec)` changes the request; code after it sees the response.
-- `OrderedFilter.getOrder()`: lower values run first; ordinary filters count as 1000.
-
 ### Section 2: Useful Filters
 
-**Guide:** [module-08-section-02-rest-assured-useful-filters.md](../docs/module-08-section-02-rest-assured-useful-filters.md)
+**Guide:** [Useful Filters for REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-02.html)
 
 | Class | What it tests |
 | --- | --- |
@@ -72,36 +67,25 @@ Each section has a step-by-step guide in the [`docs`](../docs) folder at the rep
 
 ### Section 3: Signing Requests
 
-**Guide:** [module-08-section-03-rest-assured-signing-requests.md](../docs/module-08-section-03-rest-assured-signing-requests.md)
+**Guide:** [Signing Requests in REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-03.html)
 
 | Class | What it tests |
 | --- | --- |
 | [`RequestSigningTest`](src/test/java/com/javanibble/module_08/section_03/RequestSigningTest.java) | Signed POST and GET accepted; unsigned, tampered-after-signing, wrongly signed and stale requests rejected |
 | [`HttpMessageSignatureFilter`](src/test/java/com/javanibble/module_08/support/HttpMessageSignatureFilter.java) | Adds `Content-Digest`, `Signature-Input` and `Signature`; written from the RFCs, independently of the server's code |
 
-**REST Assured concepts**
-
-- The signer is an `OrderedFilter` near `LOWEST_PRECEDENCE`, so it runs last, just before sending. A "tamper in transit" filter placed after it proves the server checks the digest.
-- An injectable `Clock` makes the "signature too old" case testable.
-
 ### Section 4: A Custom Authentication Scheme
 
-**Guide:** [module-08-section-04-rest-assured-custom-authentication-scheme.md](../docs/module-08-section-04-rest-assured-custom-authentication-scheme.md)
+**Guide:** [A Custom Authentication Scheme in REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-04.html)
 
 | Class | What it tests |
 | --- | --- |
 | [`CustomAuthenticationTest`](src/test/java/com/javanibble/module_08/section_04/CustomAuthenticationTest.java) | An API key scheme in a specification, removed with `auth().none()`, replaced by another scheme, and as the global default |
 
-**REST Assured concepts**
-
-- `ContextAuthenticationScheme` (REST Assured 6.3) is a functional interface that sets headers through an `AuthenticationContext`, without Apache HttpClient 4 types.
-
 ### Section 5: Parsers and Failure Listeners
 
-**Guide:** [module-08-section-05-rest-assured-parsers-and-failure-listeners.md](../docs/module-08-section-05-rest-assured-parsers-and-failure-listeners.md)
+**Guide:** [Parsers and Failure Listeners in REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-05.html)
 
 | Class | What it tests |
 | --- | --- |
 | [`ParsersAndListenersTest`](src/test/java/com/javanibble/module_08/section_05/ParsersAndListenersTest.java) | A body that is just text, `parser("text/plain", Parser.JSON)` per response and in a specification, and a `ResponseValidationFailureListener` that collects evidence |
-
-- A parser registered with `ResponseSpecBuilder.registerParser(..)` covers only the expectations inside that specification. `then().spec(..)` doesn't pass it on, so a `body(path, ..)` chained after `spec(..)` still fails on `text/plain`: put the body expectations in the specification, or use `parser(..)` on the response.

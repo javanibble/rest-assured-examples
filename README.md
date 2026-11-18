@@ -13,6 +13,7 @@ The course has twelve Maven modules, from a first request in Module 1 to request
 ## Table of Contents
 - [REST Assured Examples](#rest-assured-examples)
   - [Table of Contents](#table-of-contents)
+  - [Guide](#guide)
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Build and Test](#build-and-test)
@@ -23,6 +24,25 @@ The course has twelve Maven modules, from a first request in Module 1 to request
   - [Technology Stack](#technology-stack)
   - [Resources](#resources)
   - [License](#license)
+
+## Guide
+
+The [REST Assured Guide](https://www.javanibble.com/rest-assured-guide/) on Java Nibble is the documentation for this repository. It has a page for every module and a step-by-step guide for every section, which explains the concepts behind the tests, walks through the code and points out common mistakes. Each module's README lists its sections, with a link to each guide and to the test classes. The [REST Assured Outline](REST%20Assured%20Outline.md) lists every topic on one page.
+
+| Module | Level | What you will learn | Code |
+| --- | --- | --- | --- |
+| [1. Foundations](https://www.javanibble.com/rest-assured-guide/module-01/) | Beginner | given/when/then, where requests go, first assertions, logging, reading failures | [module-01](module-01/README.md) |
+| [2. Building Requests](https://www.javanibble.com/rest-assured-guide/module-02/) | Beginner | Path, query and form parameters, headers, cookies, bodies, every HTTP method, multipart uploads | [module-02](module-02/README.md) |
+| [3. Validating Responses in Depth](https://www.javanibble.com/rest-assured-guide/module-03/) | Beginner to intermediate | GPath for JSON and XML, Hamcrest matchers, root paths, numbers and money, cookies, response-aware matchers | [module-03](module-03/README.md) |
+| [4. Extracting Values and Mapping Objects](https://www.javanibble.com/rest-assured-guide/module-04/) | Intermediate | `extract()`, `JsonPath`, mapping to records, generics with `TypeRef`, Jackson 3, chaining requests | [module-04](module-04/README.md) |
+| [5. Reusable Specifications and Configuration](https://www.javanibble.com/rest-assured-guide/module-05/) | Intermediate | Request and response specifications, `RestAssuredConfig`, timeouts, redirects, hiding secrets in logs, a JUnit extension | [module-05](module-05/README.md) |
+| [6. Schema and Contract Validation](https://www.javanibble.com/rest-assured-guide/module-06/) | Intermediate | JSON Schema (draft 2020-12), XSD, RFC 9457 errors, OpenAPI validation | [module-06](module-06/README.md) |
+| [7. Authentication and Transport Security](https://www.javanibble.com/rest-assured-guide/module-07/) | Intermediate to advanced | Basic, bearer tokens, the client credentials grant, negative security tests, sessions and CSRF, TLS, mutual TLS | [module-07](module-07/README.md) |
+| [8. Filters and Extensibility](https://www.javanibble.com/rest-assured-guide/module-08/) | Advanced | Custom filters, request signing, masking logs, custom authentication schemes, parsers and failure listeners | [module-08](module-08/README.md) |
+| [9. Data-Driven Tests and API Workflows](https://www.javanibble.com/rest-assured-guide/module-09/) | Advanced | Parameterized API tests, dynamic tests, multi-step workflows, idempotency, ETags, pagination, polling | [module-09](module-09/README.md) |
+| [10. Stubbing Dependencies with WireMock](https://www.javanibble.com/rest-assured-guide/module-10/) | Advanced | Stubbing a third-party API, fault injection, verifying outgoing calls, templates and scenarios | [module-10](module-10/README.md) |
+| [11. Spring Boot Integration](https://www.javanibble.com/rest-assured-guide/module-11/) | Advanced | `RestAssuredMockMvc`, Spring Security test support, full server tests on a random port | [module-11](module-11/README.md) |
+| [12. Real Infrastructure with Testcontainers](https://www.javanibble.com/rest-assured-guide/module-12/) | Advanced | Real tokens from Keycloak, parallel execution, tags and Maven profiles | [module-12](module-12/README.md) |
 
 ## Getting Started
 
