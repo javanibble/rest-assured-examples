@@ -6,9 +6,9 @@
 [![Maven 3.9](https://img.shields.io/badge/Maven-3.9-C71A36)](https://maven.apache.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
-Learn to test REST APIs in Java by reading, running and breaking real tests. In Java, the standard library for this is REST Assured: you describe an HTTP request, send it, and check the response in one readable `given().when().then()` chain, inside ordinary JUnit tests. This repository teaches REST Assured 6 by example, and continues the [JUnit 6 course](https://github.com/andre-mare/java-unit-testing). Every concept is a test you can run, read and change.
+REST Assured Examples is a practical, hands-on repository showcasing clean patterns and real-world code examples for automated API testing in Java. It demonstrates how to leverage REST Assured’s fluent API alongside modern JUnit to validate HTTP responses, headers, and payloads cleanly. 
 
-The course has twelve Maven modules, from a first request in Module 1 to request signing, WireMock, Spring Boot and real OAuth 2.0 tokens from Keycloak in Modules 8 to 12. Each module tests its own small HTTP API from banking and identity, such as accounts, payments, consents and an OAuth 2.0 resource server, which the tests start themselves, and the tests for each section are in their own package. The modules share no code, so you can work through them in order or start with the one you need.
+Inside, you'll find working implementations covering JSON serialisation, reusable request specifications, schema validation, and authentication flows. Whether you are setting up your first API test suite or standardising integration tests across a microservice architecture, this repo serves as a straightforward reference.
 
 ## Table of Contents
 - [REST Assured Examples](#rest-assured-examples)
