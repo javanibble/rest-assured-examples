@@ -35,8 +35,8 @@ The course has twelve Maven modules, from a first request in Module 1 to request
 ### Build and Test
 
 ```bash
-git clone https://github.com/andre-mare/java-rest-assured-testing.git
-cd java-rest-assured-testing
+git clone https://github.com/javanibble/rest-assured-examples.git
+cd rest-assured-examples
 mvn test
 ```
 
@@ -96,7 +96,7 @@ mvn test -pl module-12 -Dtest=ParallelExecutionTest
 | [Hamcrest](https://hamcrest.org/JavaHamcrest/) | from REST Assured | Matchers | All modules |
 | [Jackson](https://github.com/FasterXML/jackson) | 3.2.3, through `jackson-bom` | JSON in the APIs and object mapping in the tests | All modules |
 | [AssertJ](https://assertj.github.io/doc/) | 3.27.7 | Fluent assertions on mapped objects | Modules 4, 9 |
-| [Awaitility](https://www.awaitility.org/) | 4.3.0 | Waiting for asynchronous work | Module 9 |
+| [Awaitility](https://github.com/awaitility/awaitility) | 4.3.0 | Waiting for asynchronous work | Module 9 |
 | [WireMock](https://wiremock.org/) | 3.13.2 | Stubbing a third-party API | Module 10 |
 | [Spring Boot](https://spring.io/projects/spring-boot) | 4.1.2 | The application under test | Module 11 |
 | [Testcontainers](https://testcontainers.com/) | 2.0.5, through `testcontainers-bom` | Running containers from tests | Module 12 |
