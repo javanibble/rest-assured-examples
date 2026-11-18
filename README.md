@@ -130,7 +130,7 @@ mvn test -pl module-12 -Dtest=ParallelExecutionTest
 - [REST Assured Release Notes](https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes)
 - [REST Assured Javadoc](https://javadoc.io/doc/io.rest-assured/rest-assured/latest/index.html)
 - [JUnit 6.1.3 User Guide](https://docs.junit.org/6.1.3/)
-- [Java Unit Testing with JUnit 6](https://github.com/andre-mare/java-unit-testing), the course this one builds on
+- [Java Unit Testing with JUnit 6](https://github.com/andre-mare/java-unit-testing)
 
 ## License
 
