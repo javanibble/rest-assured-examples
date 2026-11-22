@@ -12,16 +12,16 @@ This module covers how a REST Assured test is put together, where its requests g
 
 ## Guides
 
-Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-01/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
+Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/rest-assured-learning-guide/#module-1-foundations). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
 
 | Section | Guide |
 | --- | --- |
-| 1. Your First Request | [Your First REST Assured Request](https://www.javanibble.com/rest-assured-guide/module-01/section-01.html) |
-| 2. The Anatomy of a Test | [The Anatomy of a REST Assured Test](https://www.javanibble.com/rest-assured-guide/module-01/section-02.html) |
-| 3. Where Requests Go | [Where REST Assured Requests Go](https://www.javanibble.com/rest-assured-guide/module-01/section-03.html) |
-| 4. First Assertions | [First REST Assured Assertions](https://www.javanibble.com/rest-assured-guide/module-01/section-04.html) |
-| 5. Logging | [Logging in REST Assured](https://www.javanibble.com/rest-assured-guide/module-01/section-05.html) |
-| 6. Reading Failures | [Reading REST Assured Failures](https://www.javanibble.com/rest-assured-guide/module-01/section-06.html) |
+| 1. Your First Request | [Send Your First REST Assured Request](https://www.javanibble.com/rest-assured-guide/module1-section1/) |
+| 2. The Anatomy of a Test | [Take Apart a REST Assured Test](https://www.javanibble.com/rest-assured-guide/module1-section2/) |
+| 3. Where Requests Go | [Control Where REST Assured Requests Go](https://www.javanibble.com/rest-assured-guide/module1-section3/) |
+| 4. First Assertions | [Check Every Part of an HTTP Response](https://www.javanibble.com/rest-assured-guide/module1-section4/) |
+| 5. Logging | [Log REST Assured Requests and Responses](https://www.javanibble.com/rest-assured-guide/module1-section5/) |
+| 6. Reading Failures | [Read REST Assured Failure Messages](https://www.javanibble.com/rest-assured-guide/module1-section6/) |
 
 ## The Domain: Accounts
 

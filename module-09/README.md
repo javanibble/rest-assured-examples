@@ -12,15 +12,15 @@ This module covers testing many inputs without copying tests, and testing flows 
 
 ## Guides
 
-Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-09/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
+Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/rest-assured-learning-guide/#module-9-data-driven-tests-and-api-workflows). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
 
 | Section | Guide |
 | --- | --- |
-| 1. Parameterized API Tests | [Parameterized API Tests With REST Assured](https://www.javanibble.com/rest-assured-guide/module-09/section-01.html) |
-| 2. Dynamic API Tests | [Dynamic API Tests With REST Assured](https://www.javanibble.com/rest-assured-guide/module-09/section-02.html) |
-| 3. API Workflows | [API Workflows With REST Assured](https://www.javanibble.com/rest-assured-guide/module-09/section-03.html) |
-| 4. HTTP Semantics | [HTTP Semantics in REST Assured](https://www.javanibble.com/rest-assured-guide/module-09/section-04.html) |
-| 5. Asynchronous APIs | [Testing Asynchronous APIs With REST Assured](https://www.javanibble.com/rest-assured-guide/module-09/section-05.html) |
+| 1. Parameterized API Tests | [Write Parameterized API Tests With REST Assured](https://www.javanibble.com/rest-assured-guide/module9-section1/) |
+| 2. Dynamic API Tests | [Generate Dynamic API Tests With REST Assured](https://www.javanibble.com/rest-assured-guide/module9-section2/) |
+| 3. API Workflows | [Test API Workflows With REST Assured](https://www.javanibble.com/rest-assured-guide/module9-section3/) |
+| 4. HTTP Semantics | [Test Idempotency, ETags and Pagination in REST Assured](https://www.javanibble.com/rest-assured-guide/module9-section4/) |
+| 5. Asynchronous APIs | [Test Asynchronous APIs With REST Assured](https://www.javanibble.com/rest-assured-guide/module9-section5/) |
 
 ## The Domain: The Payment Lifecycle
 

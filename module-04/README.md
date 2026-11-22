@@ -12,15 +12,15 @@ This module covers getting data out of a response, as single values or as Java o
 
 ## Guides
 
-Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-04/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
+Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/rest-assured-learning-guide/#module-4-extracting-values-and-mapping-objects). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
 
 | Section | Guide |
 | --- | --- |
-| 1. Extracting Values | [Extracting Values in REST Assured](https://www.javanibble.com/rest-assured-guide/module-04/section-01.html) |
-| 2. JsonPath and XmlPath | [JsonPath and XmlPath in REST Assured](https://www.javanibble.com/rest-assured-guide/module-04/section-02.html) |
-| 3. Mapping to Java Records | [Mapping Responses to Java Records in REST Assured](https://www.javanibble.com/rest-assured-guide/module-04/section-03.html) |
-| 4. Configuring the Object Mapper | [Configuring the Object Mapper in REST Assured](https://www.javanibble.com/rest-assured-guide/module-04/section-04.html) |
-| 5. Chaining Requests | [Chaining Requests in REST Assured](https://www.javanibble.com/rest-assured-guide/module-04/section-05.html) |
+| 1. Extracting Values | [Extract Values From a Response in REST Assured](https://www.javanibble.com/rest-assured-guide/module4-section1/) |
+| 2. JsonPath and XmlPath | [Read Many Values With JsonPath and XmlPath in REST Assured](https://www.javanibble.com/rest-assured-guide/module4-section2/) |
+| 3. Mapping to Java Records | [Map Responses to Java Records in REST Assured](https://www.javanibble.com/rest-assured-guide/module4-section3/) |
+| 4. Configuring the Object Mapper | [Configure the Object Mapper in REST Assured](https://www.javanibble.com/rest-assured-guide/module4-section4/) |
+| 5. Chaining Requests | [Chain Requests Into an API Flow in REST Assured](https://www.javanibble.com/rest-assured-guide/module4-section5/) |
 
 ## The Domain: Customers and Consents
 

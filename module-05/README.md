@@ -12,15 +12,15 @@ This module covers removing repetition from a test suite and configuring REST As
 
 ## Guides
 
-Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-05/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
+Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/rest-assured-learning-guide/#module-5-reusable-specifications-and-configuration). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
 
 | Section | Guide |
 | --- | --- |
-| 1. Request Specifications | [Request Specifications in REST Assured](https://www.javanibble.com/rest-assured-guide/module-05/section-01.html) |
-| 2. Response Specifications | [Response Specifications in REST Assured](https://www.javanibble.com/rest-assured-guide/module-05/section-02.html) |
-| 3. Client Configuration | [Client Configuration in REST Assured](https://www.javanibble.com/rest-assured-guide/module-05/section-03.html) |
-| 4. Keeping Secrets Out of Logs | [Keeping Secrets Out of REST Assured Logs](https://www.javanibble.com/rest-assured-guide/module-05/section-04.html) |
-| 5. A JUnit Extension | [A JUnit Extension for REST Assured](https://www.javanibble.com/rest-assured-guide/module-05/section-05.html) |
+| 1. Request Specifications | [Build Reusable Request Specifications in REST Assured](https://www.javanibble.com/rest-assured-guide/module5-section1/) |
+| 2. Response Specifications | [Share Response Checks With Response Specifications in REST Assured](https://www.javanibble.com/rest-assured-guide/module5-section2/) |
+| 3. Client Configuration | [Configure Timeouts, Redirects and Charsets in REST Assured](https://www.javanibble.com/rest-assured-guide/module5-section3/) |
+| 4. Keeping Secrets Out of Logs | [Keep Secrets Out of REST Assured Logs](https://www.javanibble.com/rest-assured-guide/module5-section4/) |
+| 5. A JUnit Extension | [Inject REST Assured Specifications With a JUnit Extension](https://www.javanibble.com/rest-assured-guide/module5-section5/) |
 
 ## The Domain: Open Banking Accounts
 

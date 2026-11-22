@@ -12,14 +12,14 @@ This module covers checking the shape of a response instead of only its values: 
 
 ## Guides
 
-Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-06/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
+Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/rest-assured-learning-guide/#module-6-schema-and-contract-validation). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
 
 | Section | Guide |
 | --- | --- |
-| 1. JSON Schema | [JSON Schema Validation in REST Assured](https://www.javanibble.com/rest-assured-guide/module-06/section-01.html) |
-| 2. An Error Contract | [An Error Contract in REST Assured](https://www.javanibble.com/rest-assured-guide/module-06/section-02.html) |
-| 3. XML Schema | [XML Schema Validation in REST Assured](https://www.javanibble.com/rest-assured-guide/module-06/section-03.html) |
-| 4. An OpenAPI Contract Filter | [An OpenAPI Contract Filter for REST Assured](https://www.javanibble.com/rest-assured-guide/module-06/section-04.html) |
+| 1. JSON Schema | [Validate Responses Against a JSON Schema in REST Assured](https://www.javanibble.com/rest-assured-guide/module6-section1/) |
+| 2. An Error Contract | [Test an RFC 9457 Error Contract in REST Assured](https://www.javanibble.com/rest-assured-guide/module6-section2/) |
+| 3. XML Schema | [Validate ISO 20022 XML Against an XSD in REST Assured](https://www.javanibble.com/rest-assured-guide/module6-section3/) |
+| 4. An OpenAPI Contract Filter | [Check Every Response Against OpenAPI With a REST Assured Filter](https://www.javanibble.com/rest-assured-guide/module6-section4/) |
 
 ## The Domain: Payment Initiation
 

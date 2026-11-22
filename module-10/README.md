@@ -12,14 +12,14 @@ This module covers testing an API whose own dependency you don't control, by rep
 
 ## Guides
 
-Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-10/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
+Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/rest-assured-learning-guide/#module-10-stubbing-dependencies-with-wiremock). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
 
 | Section | Guide |
 | --- | --- |
-| 1. Stubbing a Dependency | [Stubbing a Dependency With WireMock](https://www.javanibble.com/rest-assured-guide/module-10/section-01.html) |
-| 2. Provider Faults | [Simulating Provider Faults With WireMock](https://www.javanibble.com/rest-assured-guide/module-10/section-02.html) |
-| 3. Verifying Outgoing Calls | [Verifying Outgoing Calls With WireMock](https://www.javanibble.com/rest-assured-guide/module-10/section-03.html) |
-| 4. Response Templates and Scenarios | [WireMock Response Templates and Scenarios](https://www.javanibble.com/rest-assured-guide/module-10/section-04.html) |
+| 1. Stubbing a Dependency | [Stub a Dependency With WireMock in REST Assured Tests](https://www.javanibble.com/rest-assured-guide/module10-section1/) |
+| 2. Provider Faults | [Simulate Provider Faults With WireMock in REST Assured Tests](https://www.javanibble.com/rest-assured-guide/module10-section2/) |
+| 3. Verifying Outgoing Calls | [Verify Outgoing Calls With WireMock in REST Assured Tests](https://www.javanibble.com/rest-assured-guide/module10-section3/) |
+| 4. Response Templates and Scenarios | [Use Response Templates and Scenarios in WireMock Stubs](https://www.javanibble.com/rest-assured-guide/module10-section4/) |
 
 ## The Domain: A Quote Service and an FX Provider
 

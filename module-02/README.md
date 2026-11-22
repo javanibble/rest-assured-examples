@@ -12,16 +12,16 @@ This module covers every way to put data into a request: path, query and form pa
 
 ## Guides
 
-Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-02/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
+Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/rest-assured-learning-guide/#module-2-building-requests). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
 
 | Section | Guide |
 | --- | --- |
-| 1. Path Parameters | [Path Parameters in REST Assured](https://www.javanibble.com/rest-assured-guide/module-02/section-01.html) |
-| 2. Query, Form and Plain Parameters | [Query, Form and Plain Parameters in REST Assured](https://www.javanibble.com/rest-assured-guide/module-02/section-02.html) |
-| 3. Headers and Cookies | [Headers, Cookies and Content Types in REST Assured](https://www.javanibble.com/rest-assured-guide/module-02/section-03.html) |
-| 4. Request Bodies | [Request Bodies in REST Assured](https://www.javanibble.com/rest-assured-guide/module-02/section-04.html) |
-| 5. Every HTTP Method | [Every HTTP Method in REST Assured](https://www.javanibble.com/rest-assured-guide/module-02/section-05.html) |
-| 6. Multipart Uploads | [Multipart Uploads in REST Assured](https://www.javanibble.com/rest-assured-guide/module-02/section-06.html) |
+| 1. Path Parameters | [Fill Path Parameters in REST Assured](https://www.javanibble.com/rest-assured-guide/module2-section1/) |
+| 2. Query, Form and Plain Parameters | [Send Query and Form Parameters in REST Assured](https://www.javanibble.com/rest-assured-guide/module2-section2/) |
+| 3. Headers and Cookies | [Send Headers and Cookies in REST Assured](https://www.javanibble.com/rest-assured-guide/module2-section3/) |
+| 4. Request Bodies | [Send Request Bodies in REST Assured](https://www.javanibble.com/rest-assured-guide/module2-section4/) |
+| 5. Every HTTP Method | [Send Every HTTP Method in REST Assured](https://www.javanibble.com/rest-assured-guide/module2-section5/) |
+| 6. Multipart Uploads | [Upload Files With Multipart Requests in REST Assured](https://www.javanibble.com/rest-assured-guide/module2-section6/) |
 
 ## The Domain: Payments
 

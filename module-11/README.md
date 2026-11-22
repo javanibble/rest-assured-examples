@@ -12,14 +12,14 @@ This module covers the two ways to test a Spring Boot API with REST Assured, and
 
 ## Guides
 
-Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-11/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
+Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/rest-assured-learning-guide/#module-11-spring-boot-integration). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
 
 | Section | Guide |
 | --- | --- |
-| 1. RestAssuredMockMvc in Standalone Mode | [RestAssuredMockMvc in Standalone Mode](https://www.javanibble.com/rest-assured-guide/module-11/section-01.html) |
-| 2. A Web Slice With Spring Security | [A Web Slice With Spring Security](https://www.javanibble.com/rest-assured-guide/module-11/section-02.html) |
-| 3. A Real Server on a Random Port | [Testing Spring Boot on a Random Port With REST Assured](https://www.javanibble.com/rest-assured-guide/module-11/section-03.html) |
-| 4. Keeping Versions Aligned | [Keeping Versions Aligned](https://www.javanibble.com/rest-assured-guide/module-11/section-04.html) |
+| 1. RestAssuredMockMvc in Standalone Mode | [Test a Spring Controller With RestAssuredMockMvc in Standalone Mode](https://www.javanibble.com/rest-assured-guide/module11-section1/) |
+| 2. A Web Slice With Spring Security | [Test Spring Security Rules in a Web Slice With RestAssuredMockMvc](https://www.javanibble.com/rest-assured-guide/module11-section2/) |
+| 3. A Real Server on a Random Port | [Test Spring Boot on a Random Port With REST Assured and Real Tokens](https://www.javanibble.com/rest-assured-guide/module11-section3/) |
+| 4. Keeping Versions Aligned | [Keep Versions Aligned Under Spring Boot's Dependency Management](https://www.javanibble.com/rest-assured-guide/module11-section4/) |
 
 ## The Domain: A Spring Boot Accounts Service
 

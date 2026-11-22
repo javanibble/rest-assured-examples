@@ -12,13 +12,13 @@ This module covers running REST Assured against real infrastructure in Docker, a
 
 ## Guides
 
-Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-12/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
+Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/rest-assured-learning-guide/#module-12-real-infrastructure-with-testcontainers). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
 
 | Section | Guide |
 | --- | --- |
-| 1. Real Tokens from Keycloak | [Real OAuth 2.0 Tokens From Keycloak](https://www.javanibble.com/rest-assured-guide/module-12/section-01.html) |
-| 2. Running in Parallel | [Running REST Assured Tests in Parallel](https://www.javanibble.com/rest-assured-guide/module-12/section-02.html) |
-| 3. Tags and Profiles | [Tags and Maven Profiles for REST Assured Suites](https://www.javanibble.com/rest-assured-guide/module-12/section-03.html) |
+| 1. Real Tokens from Keycloak | [Test With Real OAuth 2.0 Tokens From Keycloak and Testcontainers](https://www.javanibble.com/rest-assured-guide/module12-section1/) |
+| 2. Running in Parallel | [Run REST Assured Tests in Parallel With JUnit](https://www.javanibble.com/rest-assured-guide/module12-section2/) |
+| 3. Tags and Profiles | [Run the Right Subset of a REST Assured Suite With Tags and Maven Profiles](https://www.javanibble.com/rest-assured-guide/module12-section3/) |
 
 ## The Domain: Protected Accounts and Reference Data
 

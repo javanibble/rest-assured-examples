@@ -12,16 +12,16 @@ This module covers testing protected APIs, including what must happen when crede
 
 ## Guides
 
-Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-07/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
+Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/rest-assured-learning-guide/#module-7-authentication-and-transport-security). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
 
 | Section | Guide |
 | --- | --- |
-| 1. Basic Authentication | [Basic Authentication in REST Assured](https://www.javanibble.com/rest-assured-guide/module-07/section-01.html) |
-| 2. OAuth 2.0 Bearer Tokens | [OAuth 2.0 Bearer Tokens in REST Assured](https://www.javanibble.com/rest-assured-guide/module-07/section-02.html) |
-| 3. Negative Security Tests | [Negative Security Tests in REST Assured](https://www.javanibble.com/rest-assured-guide/module-07/section-03.html) |
-| 4. Sessions and CSRF | [Sessions and CSRF in REST Assured](https://www.javanibble.com/rest-assured-guide/module-07/section-04.html) |
-| 5. TLS and Mutual TLS | [TLS and Mutual TLS in REST Assured](https://www.javanibble.com/rest-assured-guide/module-07/section-05.html) |
-| 6. Credentials on Redirects | [Credentials on Redirects in REST Assured](https://www.javanibble.com/rest-assured-guide/module-07/section-06.html) |
+| 1. Basic Authentication | [Test HTTP Basic Authentication in REST Assured](https://www.javanibble.com/rest-assured-guide/module7-section1/) |
+| 2. OAuth 2.0 Bearer Tokens | [Get and Send OAuth 2.0 Bearer Tokens in REST Assured](https://www.javanibble.com/rest-assured-guide/module7-section2/) |
+| 3. Negative Security Tests | [Write Negative Security Tests for OAuth 2.0 in REST Assured](https://www.javanibble.com/rest-assured-guide/module7-section3/) |
+| 4. Sessions and CSRF | [Test a Session Login With CSRF in REST Assured](https://www.javanibble.com/rest-assured-guide/module7-section4/) |
+| 5. TLS and Mutual TLS | [Test HTTPS and Mutual TLS in REST Assured](https://www.javanibble.com/rest-assured-guide/module7-section5/) |
+| 6. Credentials on Redirects | [Keep Credentials Off Cross-Origin Redirects in REST Assured](https://www.javanibble.com/rest-assured-guide/module7-section6/) |
 
 ## The Domain: A Protected Bank
 

@@ -12,15 +12,15 @@ This module covers changing every request and response in one place with filters
 
 ## Guides
 
-Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/module-08/). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
+Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](https://www.javanibble.com/rest-assured-guide/rest-assured-learning-guide/#module-8-filters-and-extensibility). The guides explain the concepts behind the tests, walk through the code, and point out common mistakes. Read a section's guide, then run and change its tests.
 
 | Section | Guide |
 | --- | --- |
-| 1. Writing Filters | [Writing Filters in REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-01.html) |
-| 2. Useful Filters | [Useful Filters for REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-02.html) |
-| 3. Signing Requests | [Signing Requests in REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-03.html) |
-| 4. A Custom Authentication Scheme | [A Custom Authentication Scheme in REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-04.html) |
-| 5. Parsers and Failure Listeners | [Parsers and Failure Listeners in REST Assured](https://www.javanibble.com/rest-assured-guide/module-08/section-05.html) |
+| 1. Writing Filters | [Write Request and Response Filters in REST Assured](https://www.javanibble.com/rest-assured-guide/module8-section1/) |
+| 2. Useful Filters | [Write Timing, Masking and Repair Filters in REST Assured](https://www.javanibble.com/rest-assured-guide/module8-section2/) |
+| 3. Signing Requests | [Sign Requests With HTTP Message Signatures in REST Assured](https://www.javanibble.com/rest-assured-guide/module8-section3/) |
+| 4. A Custom Authentication Scheme | [Write a Custom Authentication Scheme in REST Assured](https://www.javanibble.com/rest-assured-guide/module8-section4/) |
+| 5. Parsers and Failure Listeners | [Use Parsers and Failure Listeners in REST Assured](https://www.javanibble.com/rest-assured-guide/module8-section5/) |
 
 ## The Domain: Signed Payments
 
