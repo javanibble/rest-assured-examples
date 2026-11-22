@@ -19,7 +19,7 @@ Each section has a step-by-step guide in the [Java Nibble REST Assured Guide](ht
 | 1. RestAssuredMockMvc in Standalone Mode | [Test a Spring Controller With RestAssuredMockMvc in Standalone Mode](https://www.javanibble.com/rest-assured-guide/module11-section1/) |
 | 2. A Web Slice With Spring Security | [Test Spring Security Rules in a Web Slice With RestAssuredMockMvc](https://www.javanibble.com/rest-assured-guide/module11-section2/) |
 | 3. A Real Server on a Random Port | [Test Spring Boot on a Random Port With REST Assured and Real Tokens](https://www.javanibble.com/rest-assured-guide/module11-section3/) |
-| 4. Keeping Versions Aligned | [Keep Versions Aligned Under Spring Boot's Dependency Management](https://www.javanibble.com/rest-assured-guide/module11-section4/) |
+| 4. Keeping Versions Aligned (no test class — see [`pom.xml`](pom.xml#L17)) | [Keep Versions Aligned Under Spring Boot's Dependency Management](https://www.javanibble.com/rest-assured-guide/module11-section4/) |
 
 ## The Domain: A Spring Boot Accounts Service
 
